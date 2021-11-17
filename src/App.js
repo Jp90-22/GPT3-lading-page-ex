@@ -10,6 +10,7 @@ import {
 } from './containers'
 import { CTA, Brand, Navbar } from './components'
 
+// For mark CSS classes I'm using the BEM (Block Element Modifier) notation 
 import './App.css';
 
 const App = () => {
