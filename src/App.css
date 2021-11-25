@@ -14,6 +14,17 @@ a {
 	text-decoration: none;
 }
 
+.btn {
+	border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.7;
+	transition: all 0.1.5s linear;
+}
+
 .gradient__bg {
 	background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 

@@ -49,9 +49,6 @@
     padding: 0.5rem 1rem;
     border-radius: 2rem;
 
-    border: none;
-    outline: none;
-    cursor: pointer;
     min-width: 150px;
 }
 

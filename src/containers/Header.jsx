@@ -40,7 +40,7 @@ const Header = () => {
 
 					<div className="gpt3__header-content__input">
 						<input type="email" placeholder="Your Email Address" value={email} onChange={onEmailInputChanged} />
-						<button type="button" onClick={onEmailBtnClicked}>Get Started</button>
+						<button className="btn" type="button" onClick={onEmailBtnClicked}>Get Started</button>
 					</div>
 
 					<div className="gpt3__header-content__people">

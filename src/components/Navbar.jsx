@@ -18,7 +18,7 @@ const Menu = () => (
 const SignBtns = () => (
 	<>
 		<p>Sign in</p>
-		<button type="button">Sign up</button>
+		<button className="btn" type="button">Sign up</button>
 	</>
 )
 
