@@ -13,7 +13,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 
-	position: relative;
+	position: fixed;
 	padding: 2rem;
 	border:5px solid var(--color-blog);
     border-radius: 10px;
