@@ -90,13 +90,12 @@
     margin-bottom: 0.9rem;
 }
 
-.gpt3__footer-links_div p {
+.gpt3__footer-links_div a {
     font-size: 12px;
     line-height: 15px;
     font-family: var(--font-family);
 
     margin: 0.5rem 0;
-    cursor: pointer;
 }
 
 .gpt3__footer-copyright {
