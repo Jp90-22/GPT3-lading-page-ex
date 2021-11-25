@@ -6,6 +6,7 @@
 	align-items: center;
 
 	position: absolute;
+	z-index: 9999;
 }
 
 .gpt3__alert-content {
@@ -40,7 +41,7 @@
 
 .gpt3__alert-content:hover {
 	cursor: pointer;
-	opacity: 0.6;
+	opacity: 0.9;
 	transition: all 0.4s linear;
 }
 
