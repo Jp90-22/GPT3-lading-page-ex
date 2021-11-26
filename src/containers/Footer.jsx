@@ -10,7 +10,7 @@ const Footer = () => {
 				<h1 className="gradient__text">Do you want to step in to the future before others</h1>
 			</div>
 
-			<div className="btn gpt3__footer-btn" onClick={() => {window.location = '#home'}}>
+			<div className="btn gpt3__footer-btn" onClick={() => {window.location = '#home'}} data-aos="zoom-in">
 				<p>Request Early Access</p>
 			</div>
 

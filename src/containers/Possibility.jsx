@@ -6,7 +6,7 @@ import './possibility.css'
 const Possibility = () => {
 	return (
 		<div className="gpt3__possibility section__padding" id="possibility">
-			<div className="gpt3__possibility-image">
+			<div className="gpt3__possibility-image" data-aos="fade-right" data-aos-delay="350">
 				<img src={possibilityImg} alt="GPT3 possibilities" />
 			</div>
 			<div className="gpt3__possibility-content">

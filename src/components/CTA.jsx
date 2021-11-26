@@ -9,7 +9,7 @@ const CTA = () => {
 				<p>Request Early Access to Get Started</p>
 			    <h3>Register Today & start exploring the endless possibilities.</h3>
 			</div>
-			<div className="gpt3__cta-btn">
+			<div className="gpt3__cta-btn" data-aos="zoom-out" data-aos-delay="100">
 				<button className="btn" type="button" onClick={() => {window.location = '#home'}}>Get Started</button>
 			</div>
 		</div>

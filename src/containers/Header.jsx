@@ -50,7 +50,7 @@ const Header = () => {
 
 				</div>
 				
-				<div className="gpt3__header-image">
+				<div className="gpt3__header-image" data-aos="fade-in" data-aos-delay="0" data-aos-duration="300">
 					<img src={ai} alt="AI" />
 				</div>
 			</div>
