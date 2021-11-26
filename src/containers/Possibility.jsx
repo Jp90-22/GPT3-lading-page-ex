@@ -3,6 +3,10 @@ import possibilityImg from '../assets/possibility.png'
 
 import './possibility.css'
 
+/**
+ * The possibilities of GPT3
+ * @return {element} a component that shows GPT3 possibilities
+ */
 const Possibility = () => {
 	return (
 		<div className="gpt3__possibility section__padding" id="possibility">

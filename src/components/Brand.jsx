@@ -9,6 +9,10 @@ import {
 	shopify
 } from './imgImporter' 
 
+/**
+ * Collaborating brands
+ * @return {element} A set of brands with their logo
+ */
 const Brand = () => {
 	return (
 		<div className="gpt3__brand section__padding">

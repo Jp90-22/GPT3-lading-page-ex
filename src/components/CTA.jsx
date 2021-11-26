@@ -2,6 +2,10 @@ import React from 'react'
 
 import './cta.css'
 
+/**
+ * A click to action
+ * @return {element} a click to action component
+ */
 const CTA = () => {
 	return (
 		<div className="gpt3__cta">

@@ -3,6 +3,7 @@ import Feature from '../components/Feature'
 
 import './features.css'
 
+// Data to put in features
 const featuresData = [
 	{
 		title: 'Improving end distrusts instantly',
@@ -22,6 +23,10 @@ const featuresData = [
 	}
 ];
 
+/**
+ * Features of GPT3
+ * @return {element} a component that shows GPT3 features
+ */
 const Features = () => {
 	return (
 		<div className="gpt3__features section__padding" id="features">

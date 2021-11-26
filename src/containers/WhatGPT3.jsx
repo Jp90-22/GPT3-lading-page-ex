@@ -3,6 +3,10 @@ import Feature from '../components/Feature'
 
 import './whatGPT3.css'
 
+/**
+ * The component that shows information about GPT3
+ * @return {element} a component that shows GPT3 information
+ */
 const WhatGPT3 = () => {
 	return (
 		<div className="gpt3__whatgpt3 section__margin" id="wgpt3"  data-aos="fade">

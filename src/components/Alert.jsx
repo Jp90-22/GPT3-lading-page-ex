@@ -2,6 +2,12 @@ import React from 'react'
 
 import './alert.css'
 
+/**
+ * The alert to show when someone registered
+ * @param  {boolean} props.show    	a value to decide if it can be shown
+ * @param  {function} props.handler the controller
+ * @return {element}               	an alert that show with a controller
+ */
 const Alert = ({ show, handler }) => {
 	
 	if (show) {

@@ -5,16 +5,31 @@ import './header.css'
 import people from '../assets/people.png'
 import ai from '../assets/ai.png'
 
+/**
+ * Page Header component
+ * @return {element} Header component
+ */
 const Header = () => {
-	const [isAlertShowing, setIsAlertShowing] = useState(false)
-	const [email, setEmail] = useState("")
+	const [isAlertShowing, setIsAlertShowing] = useState(false) // Controll the Alert component
+	const [email, setEmail] = useState("") // Controll email input
 
+	/**
+	 * Validate if an email is correct
+	 * @param  {string} email email to check
+	 * @return {boolean}       true if the email is correct, otherwise false
+	 */
 	const validateEmail = (email) => email.match(
     	/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
   	)
 
+	/**
+	 * Email input controller
+	 */
 	const onEmailInputChanged = (evt) => setEmail(evt.target.value)
 
+	/**
+	 * Email button controller
+	 */
 	const onEmailBtnClicked = () => {
 		if (email && validateEmail(email)) {
 			setIsAlertShowing(true)

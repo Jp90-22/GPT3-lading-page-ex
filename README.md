@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# GPT3 landing page example
+
+This is an example of a modern web site landing page, builded from scratch following [this incredible JavaScript Mastery's tutorial](https://youtu.be/LMagNcngvcU), and with some great improvements builded by myself.
+
+## Features
+- Modern style
+- Full responsive design
+- Alert component
+- Animations on scroll
+
+and much more made with ♥.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

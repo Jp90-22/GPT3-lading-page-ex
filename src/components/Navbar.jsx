@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 
-
 import './navbar.css'
 import logo from '../assets/logo.svg'
 
+/**
+ * Menu where site links are
+ * @return {element} site links  
+ */
 const Menu = () => (
 	<>
 		<p><a href="#home">Home</a></p>
@@ -15,6 +18,10 @@ const Menu = () => (
 	</>
 )
 
+/**
+ * Buttons for simulate signs functionalities
+ * @return {element} Sign buttons 
+ */
 const SignBtns = () => (
 	<>
 		<p>Sign in</p>
@@ -22,8 +29,12 @@ const SignBtns = () => (
 	</>
 )
 
+/**
+ * Navigation bar
+ * @return {element} App navigation bar
+ */
 const Navbar = () => {
-	const [toggleMenu, setToggleMenu] = useState(false)
+	const [toggleMenu, setToggleMenu] = useState(false) // Use for controll the mini menu
 
 	return (
 		<div className="gpt3__navbar">
@@ -42,6 +53,7 @@ const Navbar = () => {
 			</div>
 
 			<div className="gpt3__navbar-menu">
+				{/* Choose when and how to show the mini menu */}
 				{toggleMenu
 					? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
 					: <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />

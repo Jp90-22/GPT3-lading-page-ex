@@ -10,6 +10,10 @@ import {
 	blog05 
 } from './imgImporter'
 
+/**
+ * The blog section of the page
+ * @return {element} a blog section
+ */
 const Blog = () => {
 	return (
 		<div className="gpt3__blog section__padding" id="blog">
