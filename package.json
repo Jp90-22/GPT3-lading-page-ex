@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^3.0.0-beta.6",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -14,6 +15,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -55,5 +58,5 @@
   "bugs": {
     "url": "https://github.com/JPdevelop22/GPT3-lading-page-ex/issues"
   },
-  "homepage": "https://github.com/JPdevelop22/GPT3-lading-page-ex#readme"
+  "homepage": "https://JPdevelop22.github.io/GPT3-lading-page-ex"
 }
